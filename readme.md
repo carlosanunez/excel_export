@@ -67,11 +67,6 @@ Example:
 
 		$excel->finalize();
 
-		//header('Content-type: application/xlsx');
-
-		//header('Content-Disposition: attachment; filename="'.$filename.'"');
-
-		//readfile($filename);
 		return Response::download($filename);
 ```
 
